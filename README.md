@@ -71,7 +71,6 @@ TecSailor/
 |-- app.R
 |-- config.R
 |-- main.R
-|-- PROJECT_CONTEXT.md
 |-- run_tests.R
 `-- README.md
 ```
