@@ -1,0 +1,10 @@
+actual,predicted,Freq
+negative,negative,136
+neutral,negative,5
+positive,negative,3
+negative,neutral,15
+neutral,neutral,6
+positive,neutral,9
+negative,positive,9
+neutral,positive,25
+positive,positive,352

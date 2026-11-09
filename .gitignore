@@ -1,0 +1,9 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+.httr-oauth
+pipeline.log
+.DS_Store
+Thumbs.db

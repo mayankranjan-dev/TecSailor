@@ -1,0 +1,59 @@
+TECSAILOR - ANALYSIS SUMMARY
+Generated: 2026-11-09 16:56
+
+DATA QUALITY BY SOURCE
+# A tibble: 1 × 8
+  requested_pages successful_pages success_rate raw_reviews usable_reviews usable_share
+            <dbl>            <dbl>        <dbl>       <dbl>          <dbl>        <dbl>
+1              70               66        0.943         603            560        0.929
+  verified_share lexicon_coverage
+           <dbl>            <dbl>
+1              1            0.984
+
+FORECAST BACKTEST
+# A tibble: 15 × 5
+   brand  model            MAE  RMSE   WAPE
+   <chr>  <chr>          <dbl> <dbl>  <dbl>
+ 1 Boult  Seasonal naive  8.42  8.63 0.702 
+ 2 Boult  STL + ETS       2.93  3.90 0.244 
+ 3 Boult  ARIMA           1.31  1.70 0.109 
+ 4 JBL    Seasonal naive  3.08  4.39 0.216 
+ 5 JBL    STL + ETS       2.46  3.85 0.173 
+ 6 JBL    ARIMA           3.32  4.84 0.233 
+ 7 Noise  Seasonal naive 13.1  16.0  0.255 
+ 8 Noise  STL + ETS      10.8  13.5  0.210 
+ 9 Noise  ARIMA          11.7  14.8  0.227 
+10 boAt   Seasonal naive  5.15  7.38 0.0915
+11 boAt   STL + ETS       7.63  9.09 0.135 
+12 boAt   ARIMA          12.3  13.7  0.218 
+13 realme Seasonal naive  8.12  8.99 0.291 
+14 realme STL + ETS       4.62  5.94 0.165 
+15 realme ARIMA           6.04  7.06 0.216 
+
+SENTIMENT EVALUATION
+# A tibble: 4 × 6
+  class    precision recall    f1 accuracy balanced_accuracy
+  <chr>        <dbl>  <dbl> <dbl>    <dbl>             <dbl>
+1 overall      0.685  0.661 0.672    0.882             0.661
+2 negative     0.944  0.85  0.895   NA                NA    
+3 neutral      0.2    0.167 0.182   NA                NA    
+4 positive     0.912  0.967 0.939   NA                NA    
+
+TOP BOAT SALE WINDOWS
+# A tibble: 3 × 4
+  date       opportunity_score sale_window      recommendation    
+  <date>                 <dbl> <chr>            <chr>             
+1 2027-10-03              83.3 Regular week     Strong sale window
+2 2027-08-08              76.9 Independence Day Strong sale window
+3 2027-05-30              65.1 Regular week     Good sale window  
+
+DATA SOURCE SUMMARY
+Total reviews analyzed: 560
+  - Flipkart: 560 (100.0%)
+  - Amazon: 0 (0.0%)
+
+INTERPRETATION
+The opportunity score combines forecast demand, demand momentum, festival timing and review health.
+Google Trends is a relative demand proxy and is not the same as completed e-commerce sales.
+Reviews are collected from Flipkart and Amazon India (when available) for broader market coverage.
+The result supports promotion planning but does not prove that a discount will cause extra sales.

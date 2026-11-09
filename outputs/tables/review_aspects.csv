@@ -1,0 +1,80 @@
+brand,aspect,actual_sentiment,mentions
+Boult,Battery,negative,16
+Boult,Battery,positive,6
+Boult,Build quality,negative,11
+Boult,Build quality,neutral,1
+Boult,Build quality,positive,9
+Boult,Calling,negative,3
+Boult,Calling,neutral,4
+Boult,Calling,positive,1
+Boult,Comfort,negative,5
+Boult,Comfort,neutral,6
+Boult,Comfort,positive,1
+Boult,Connectivity,negative,8
+Boult,Connectivity,positive,2
+Boult,Sound,negative,5
+Boult,Sound,neutral,3
+Boult,Sound,positive,5
+Boult,Value,negative,9
+Boult,Value,positive,8
+JBL,Battery,negative,4
+JBL,Battery,positive,2
+JBL,Build quality,negative,14
+JBL,Build quality,neutral,1
+JBL,Build quality,positive,10
+JBL,Calling,negative,3
+JBL,Comfort,positive,1
+JBL,Connectivity,negative,1
+JBL,Sound,negative,16
+JBL,Sound,neutral,1
+JBL,Sound,positive,7
+JBL,Support,negative,1
+JBL,Support,positive,1
+JBL,Value,negative,7
+JBL,Value,neutral,4
+JBL,Value,positive,12
+Noise,Battery,negative,5
+Noise,Battery,positive,4
+Noise,Build quality,negative,4
+Noise,Build quality,positive,23
+Noise,Calling,negative,6
+Noise,Calling,positive,2
+Noise,Comfort,negative,2
+Noise,Delivery,neutral,1
+Noise,Sound,negative,8
+Noise,Sound,neutral,2
+Noise,Sound,positive,14
+Noise,Support,negative,1
+Noise,Value,negative,4
+Noise,Value,positive,26
+boAt,Build quality,negative,5
+boAt,Build quality,neutral,1
+boAt,Build quality,positive,16
+boAt,Calling,negative,1
+boAt,Calling,neutral,2
+boAt,Calling,positive,2
+boAt,Comfort,negative,3
+boAt,Delivery,positive,1
+boAt,Sound,negative,1
+boAt,Sound,neutral,1
+boAt,Sound,positive,7
+boAt,Support,negative,1
+boAt,Value,negative,1
+boAt,Value,positive,18
+realme,Battery,negative,11
+realme,Battery,neutral,4
+realme,Battery,positive,8
+realme,Build quality,negative,22
+realme,Build quality,neutral,1
+realme,Build quality,positive,23
+realme,Calling,negative,16
+realme,Calling,positive,3
+realme,Comfort,negative,1
+realme,Connectivity,negative,3
+realme,Delivery,negative,1
+realme,Sound,negative,14
+realme,Sound,neutral,2
+realme,Sound,positive,22
+realme,Value,negative,13
+realme,Value,neutral,1
+realme,Value,positive,26
